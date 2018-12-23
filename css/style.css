@@ -26,15 +26,15 @@ header {
 }
 
 footer {
-   width: 100%;
-   background-color: #444444;
-   text-align: center;
-   height: 130px;
-   padding-top: 0px;
+    width: 100%;
+    background-color: #444444;
+    text-align: center;
+    height: 130px;
+    padding-top: 0px;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     text-align: left;
     color: #ddd;
     text-transform: uppercase;
@@ -86,7 +86,9 @@ h1 {
 h2 {
     color: #4C7DA3;
     padding-top: 30px;
-    padding-left: 30px;
+    margin: 0 auto;
+    width: 960px;
+    align: left;
 }
 
 #logo_img {
@@ -113,10 +115,48 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
+    width: 960px;
   }
 
-  #para {
-    padding-left: 30px;
+#para {
     font-family: 'Archivo', sans-serif;
-    align: left;
-  }
+    margin: 0 auto;
+    width: 960px;
+    color: #5B5454;
+}
+
+/* .body-container {
+    background-color: #FDFBFB;
+    box-shadow: 5px 5px 5px #444444;
+    margin: 0 auto;
+    width: 960px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+} */
+
+.box {
+    display: flex;
+    flex:1;
+    /* justify-content: center; */
+    margin: 0 auto;
+    width: 960px;
+    /* justify-content: center;
+  align-items: center;  */
+    /* text-align: left; */
+}
+
+.box-a {
+    width: 20%;
+    order: 1;
+}
+
+.box-b {
+    width: 20%;
+    order: 2;
+}
+
+.box-c {
+    width: 20%;
+    order: 3;
+}
