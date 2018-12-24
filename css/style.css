@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Alike Angular');
 @import url('https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700');
 
-/* #index-wrapper {
-    background: #E1E1E1;
-} */
-
 header {
     background-color: #4C7DA3;
     text-align: center;
     height: 130px;
-    padding: 10px;
     box-shadow: 30px;
+    width: 1300px;
 }
 
+.header-div {
+    position:fixed;
+    background-color: #4C7DA3;
+}
+/* .body{
+    margin:0;
+    padding:0;
+} */
 .container {
     margin: 0 auto;
-    width: 960px;
-    left: 16%;
+    width: 970px;
 }
 
 .container a {
@@ -25,13 +28,13 @@ header {
     color: #ddd;
 }
 
-footer {
+/* footer {
     width: 100%;
     background-color: #444444;
     text-align: center;
     height: 130px;
     padding-top: 0px;
-}
+} */
 
 h1 {
     font-size: 40px;
@@ -50,6 +53,7 @@ h1 {
     background-color: #444444;
     height: 30px;
     padding-top: 5px;
+    margin:0;
     /* text-align: center; */
 }
   
@@ -108,55 +112,137 @@ h2 {
     background-image: url("../img/parallax-img.jpg");
   
     /* Set a specific height */
-    min-height: 320px; 
+    min-height: 400px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
-    width: 960px;
+    width: 1269px;
+    padding-top:10px;
   }
+  /* .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    height: 50px;
+ }
 
-#para {
+ .side {
+    text-align: center;
+    list-style: none;
+ }
+
+ .side a {
+     text-decoration: none;
+ } */
+
+.content {
     font-family: 'Archivo', sans-serif;
     margin: 0 auto;
     width: 960px;
     color: #5B5454;
 }
-
-/* .body-container {
-    background-color: #FDFBFB;
-    box-shadow: 5px 5px 5px #444444;
-    margin: 0 auto;
-    width: 960px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-} */
-
-.box {
-    display: flex;
-    flex:1;
-    /* justify-content: center; */
-    margin: 0 auto;
-    width: 960px;
-    /* justify-content: center;
-  align-items: center;  */
-    /* text-align: left; */
+.content-flex {
+    font-family: 'Archivo', sans-serif;
+    color: #5B5454;
+    padding-bottom: 50px;   
 }
 
-.box-a {
-    width: 20%;
-    order: 1;
-}
+#container3 {
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    }
+    #container2 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:30%;
+    }
+    #container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:40%;
+    }
+    #col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+    }
+    #col2 {
+    float:left;
+    width:40%;
+    position:relative;
+    left:70%;
+    overflow:hidden;
+    }
+    #col3 {
+    float:left;
+    width:30%;
+    position:relative;
+    left:73%;
+    overflow:hidden;
+    }
 
-.box-b {
-    width: 20%;
-    order: 2;
-}
+    /* .foot{
+       position: relative;
+       margin:auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4C7DA3;
+  color: white;
+  text-align: center;
+     } */
 
-.box-c {
-    width: 20%;
-    order: 3;
-}
+     /*footer {
+         color: Black;
+         //background-color: #4C7DA3;
+     }*/
+     .foot {
+         float: right;
+         background-color: #4C7DA3;
+         width: 100%;
+         align-items: center;
+     }
+     .f1
+     {
+        float: center;
+     }
+     .fa {
+        padding: 10px;
+        font-size : 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 60%;
+        display: inline;
+        margin-left:50px;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+
