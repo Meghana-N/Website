@@ -1,11 +1,19 @@
+/*Usage of Google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Alike Angular');
 @import url('https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700');
+
+/*Usage of Media query*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: grey;
+  }
+}
 
 header {
     background-color: #4C7DA3;
     text-align: center;
     height: 130px;
-    box-shadow: 30px;
+    box-shadow: 30px 5px;
     width: 1300px;
 }
 
@@ -13,10 +21,8 @@ header {
     position:fixed;
     background-color: #4C7DA3;
 }
-/* .body{
-    margin:0;
-    padding:0;
-} */
+
+/*Body container*/
 .container {
     margin: 0 auto;
     width: 970px;
@@ -28,14 +34,6 @@ header {
     color: #ddd;
 }
 
-/* footer {
-    width: 100%;
-    background-color: #444444;
-    text-align: center;
-    height: 130px;
-    padding-top: 0px;
-} */
-
 h1 {
     font-size: 40px;
     text-align: left;
@@ -44,17 +42,14 @@ h1 {
     padding-top: 2px;
     font-family: 'Archivo', sans-serif;
     text-shadow: 5px 5px 5px #444444;
-    /* position: relative; */
 }
 
+/*Navigator bar*/
 .topnav {
-    /* position: relative;
-    overflow: hidden; */
     background-color: #444444;
     height: 30px;
     padding-top: 5px;
     margin:0;
-    /* text-align: center; */
 }
   
 .topnav a {
@@ -92,27 +87,21 @@ h2 {
     padding-top: 30px;
     margin: 0 auto;
     width: 960px;
-    align: left;
 }
 
 #logo_img {
-    /* display: block; */
     float: left;
-    /* position: relative; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* box-align: left; */
     width: 25%;
     padding-bottom: 10px;
-    /* height: 30%; */
 }
 
+/*Usage of Parallax*/
 .parallax {
     /* The image used */
     background-image: url("../img/parallax-img.jpg");
   
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -122,24 +111,6 @@ h2 {
     width: 1269px;
     padding-top:10px;
   }
-  /* .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    text-align: center;
-    height: 50px;
- }
-
- .side {
-    text-align: center;
-    list-style: none;
- }
-
- .side a {
-     text-decoration: none;
- } */
 
 .content {
     font-family: 'Archivo', sans-serif;
@@ -158,91 +129,87 @@ h2 {
     width:100%;
     overflow:hidden;
     position:relative;
-    }
-    #container2 {
+}
+
+#container2 {
     float:left;
     width:100%;
     position:relative;
     right:30%;
-    }
-    #container1 {
+}
+
+#container1 {
     float:left;
     width:100%;
     position:relative;
     right:40%;
-    }
-    #col1 {
+}
+
+#col1 {
     float:left;
     width:26%;
     position:relative;
     left:72%;
     overflow:hidden;
-    }
-    #col2 {
+}
+
+#col2 {
     float:left;
     width:40%;
     position:relative;
     left:70%;
     overflow:hidden;
-    }
-    #col3 {
+}
+
+#col3 {
     float:left;
     width:30%;
     position:relative;
     left:73%;
     overflow:hidden;
-    }
+}
 
-    /* .foot{
-       position: relative;
-       margin:auto;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #4C7DA3;
-  color: white;
-  text-align: center;
-     } */
+/*footer*/
+.foot {
+    float: left;  
+    background-color: #4C7DA3;
+    width: 100%;
+    height: 60px;
+}
 
-     /*footer {
-         color: Black;
-         //background-color: #4C7DA3;
-     }*/
-     .foot {
-         float: right;
-         background-color: #4C7DA3;
-         width: 100%;
-         align-items: center;
-     }
-     .f1
-     {
-        float: center;
-     }
-     .fa {
-        padding: 10px;
-        font-size : 20px;
-        width: 20px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 60%;
-        display: inline;
-        margin-left:50px;
-      }
-      .fa-facebook {
-        background: #3B5998;
-        color: white;
-      }
-      .fa-twitter {
-        background: #55ACEE;
-        color: white;
-      }
-      .fa-google {
-        background: #dd4b39;
-        color: white;
-      }
-      .fa-youtube {
-        background: #bb0000;
-        color: white;
-      }
+.f1 {
+    padding-left: 400px;
+}
+
+.fa {
+    padding: 10px;
+    font-size : 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 60%;
+    display: inline;
+    margin-left:50px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
 
